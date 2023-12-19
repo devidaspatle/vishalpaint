@@ -1,0 +1,1390 @@
+
+<!doctype html>
+<html class="fixed">
+    <head>
+		<!-- Head Libs -->
+		<script src="assets/vendor/modernizr/modernizr.js"></script>
+<!-- Basic -->
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>BHOYARNATH | Mutual Nidhi Limited</title>
+		
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+
+		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+		<link rel="stylesheet" href="assets/vendor//bootstrap-datepicker/css/bootstrap-datepicker3.css" />
+
+		<!-- Specific Page Vendor CSS -->
+		<link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.css" />
+		<link rel="stylesheet" href="assets/vendor/jquery-ui/jquery-ui.theme.css" />
+		<link rel="stylesheet" href="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.css" />
+		<link rel="stylesheet" href="assets/vendor/morris.js/morris.css" />
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="assets/stylesheets/theme-custom.css">
+
+		<!-- Head Libs -->
+		<script src="assets/vendor/modernizr/modernizr.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css"/>
+ 
+ <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/buttons/1.5.6/css/buttons.dataTables.min.css"/>
+   
+  
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+ <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+ 
+<style>
+	
+	.whit
+	{
+		color: white;
+	}
+
+	.widget-summary .summary .amount {
+    margin-right: .2em;
+    font-size: 14px;
+    /* font-size: 15px; */
+    font-weight: 600;
+    color: #333;
+    vertical-align: middle;
+    text-align: -webkit-center;
+
+}
+
+
+.widget-summary .widget-summary-col {
+    display: table-cell;
+    vertical-align: center;
+    width: 100%;
+   
+}
+
+.bg-primary {
+    background: #0088cc;
+  	display: inline-block;
+}
+
+.bg-secondary {
+    background: #E36159;
+    color: #FFF;
+   
+    display: inline-block;
+}
+
+.bg-tertiary {
+    background: #2BAAB1;
+    color: #FFF;
+   display: inline-block;
+}
+.bg-quaternary {
+    background: #734BA9;
+    color: #FFF;
+   display: inline-block;
+}
+
+
+.widget-summary {
+    /* display: table; */
+    width: 100%;
+}
+
+.widget-summary .summary-icon {
+    margin-right: 0px;
+    font-size: 4.2rem;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 55px;
+    border-radius: 55px;
+}
+
+.widget-summary .widget-summary-col {
+    display: initial;
+    vertical-align: top;
+    width: 100%;
+}
+
+.panel-body {
+    padding: 0px;
+}
+
+.panel-heading
+{
+background-color:#03486B
+}
+.table.mb-none {
+    margin-bottom: 0 !important;
+    background-color: white;
+}
+
+.panel-title {
+    color: #33353F;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 0;
+    text-transform: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+.panel-body.block1 .widget-summary {
+    text-align: center;
+}
+td {
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.block
+	{
+		padding:20px 10px;
+	}
+	strong.amount {
+	padding-left:10px;
+	position:absolute; 
+	top:20px; 
+	text-align:left !important; 
+	color:white !important;
+}
+.widget-summary h4.amount {
+    padding-top: 10px;
+}
+@media(max-width:1140px) {
+.table-responsive td, .table-responsive th {
+font-size: 10px;
+}
+}
+@media(min-width:991px) {
+.table-responsive {
+    overflow-x: unset;
+}
+}
+</style>
+	<body>
+		<section class="body">
+
+			<!-- start: header -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.notifications > li .notification-icon {
+    /* background: #FFF; */
+    border-radius: 50%;
+    /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3); */
+    /* display: inline-block; */
+    /* height: 30px; */
+    /* position: relative; */
+    /* width: 30px; */
+    text-align: center;
+    font-size:12px;
+    margin-left:8px;
+}
+@media  only screen and (min-width: 768px) {
+.top_head {
+ display:block;
+}
+}
+@media  only screen and (min-width: 768px) and (max-width:1100px) {
+.logo h4 {
+font-size: 14px;
+} 
+.top_head a {
+font-size: 12px;
+    padding: 5px;
+
+}
+.header .separator {
+margin: 0 5px 0 !important;
+}
+.userbox .name {
+font-size: 10px;
+}
+}
+
+@media  only screen and (max-width: 767px) {
+.top_head {
+	 display:none;
+}
+}
+</style>  
+    </head>
+        <header class="header">
+	<div class="logo-container">
+		<a href="home" class="logo" style="text-decoration: none;">
+			<h4>BHOYARNATH | Admin Panel</h4>
+			<!-- <img src="../" height="35" alt="Porto Admin" /> -->
+		</a>
+		<div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+			<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+		</div>
+	</div>
+    
+	<!-- start: search & user box -->
+	<div class="header-right">	
+		
+    	<span class="separator"></span>
+		<ul class="notifications">
+        	<li class="top_head">
+            <a class="btn btn-primary" style="background-color:#0088cc;text-align:left;"><b>SMS 126</b></a>
+        </li>
+        <li class="top_head">
+            <a  href="feedback.html" class="btn btn-primary" style="background-color:#E36159;" title="Feedback"><b>FeedBack</b></a>
+            </li>
+         
+            			<li class="top_head"> <a  href="help_support.html" class="btn btn-primary" style="background-color:#0e9090" title="Help And Support"><b>Need a Help ?</b>
+            	 </a>
+            	 </li>
+            <li>
+			            	<a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown" title="Birthday">
+                            <i class="fa fa-birthday-cake"></i>
+                <span class="badge">1</span>
+            </a>&nbsp;&nbsp;
+            
+            <div class="dropdown-menu notification-menu large">
+                <div class="notification-title">
+                    <span class="pull-right label label-default">1</span>
+                    	Member's Birthday
+                </div>
+                <div class="content">
+                     <ul>
+						                            <li>
+                                <a href="birthday.html" class="clearfix" >
+                                    <span><i class="fa fa-user"></i></span> &nbsp;&nbsp;&nbsp;<span class="name">Vwigd1u</span><br />
+                                    <span><i class="fa fa-mobile"></i></span>&nbsp;&nbsp;&nbsp;<span class="contact">868681</span>
+                                </a>
+                          </li>
+                                            </ul>
+                </div>
+                                    <div align="center">
+                        <a href="birthday.html" class="btn btn-primary" style="width:50%">View More</a>
+                    </div>
+                                 <div>&nbsp;</div>
+          </div>
+        </li>
+      </ul>
+         <span class="separator"></span>
+		<div id="userbox" class="userbox">
+			<a href="home" data-toggle="dropdown">
+				<figure class="profile-picture">
+									 						<img src="assets/img/logo.jpg" alt=" FITNESS GYM" height="32" width="32" class="img-circle" >
+					
+						                </figure>
+				<div class="profile-info">
+					<span class="name">
+					 Devidas patle </span>
+					<span class="role">
+
+                    Administrator                    </span>
+				</div>
+
+				<i class="fa custom-caret"></i>
+			</a>
+
+			<div class="dropdown-menu">
+				
+				 <ul class="navbar-nav ml-auto">
+                        <!-- Authentication Links -->
+                                                 <li><a role="menuitem" tabindex="-1" href="settings.html"><i class="fa fa-user"></i> My Profile</a></li>
+					    <li><a role="menuitem" tabindex="-1" href="change-password.html"><i class="fa fa-lock"></i> Change Password</a></li>
+								 <li class="nav-item">
+                                
+                                    <a href="assets/logout"
+                                       onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                        Logout
+                                    </a>
+
+                                    <form id="logout-form" action="assets/logout" method="POST" style="display: none;">
+                                        <input type="hidden" name="_token" value="OChtyDfBmxZxOqff9L5dWZhCD0wsTW1gKunsWCKn">                                    </form>
+                                </div>
+                            </li>
+                                            </ul>
+			</div>
+		</div>
+	</div>
+	<!-- end: search & user box -->
+</header>
+
+<script type="text/javascript">
+	function isNumber(evt,id) {
+	    evt = (evt) ? evt : window.event;
+      	var charCode = (evt.which) ? evt.which : evt.keyCode;
+      	if (charCode > 31 && (charCode < 43 || charCode > 57)) {
+          document.getElementById(id).style.border = "1px solid red";
+          return false;
+      	}
+      	else
+      	{
+      	  document.getElementById(id).style.border = "";
+          return true;
+      	}
+	}
+	 
+	function checkEmail_div(id1,id2)
+	{
+	    if (document.getElementById(id1).value === '')
+	    {
+	    	document.getElementById(id1).style.borderColor = "";
+		    document.getElementById(id2).innerHTML='';
+	    }
+	    else
+	    {
+		    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+		    if (!filter.test(document.getElementById(id1).value))
+		    {
+		       document.getElementById(id1).value='';
+		       document.getElementById(id1).style.border = "1px solid red";
+		       document.getElementById(id2).innerHTML='<font color="#FF0000">Please provide a valid Email Address.</font>';
+		       document.getElementById(id1).focus();
+		    }
+		    else
+		    {
+		       document.getElementById(id1).style.borderColor = "";
+		       document.getElementById(id2).innerHTML='';
+		    }
+		}
+	}  	
+</script>			<!-- end: header -->
+
+			<div class="inner-wrapper">
+				<!-- start: sidebar -->
+				<style>
+/*span.help_btn a {
+    color: #abb4be;
+    text-decoration: none;
+    font-size: 1.3rem;
+        padding: 12px 25px;
+}
+
+span.help_btn div {
+    margin: 30px 0;
+}*/
+.help_btn {
+    margin-top: 50px;
+    padding: 10px 25px;
+}
+.faq_btn {
+  padding: 10px 25px;
+ }
+ul.nav-main li i {
+    margin-right: 1.1em;
+}
+.help_btn i.fa.fa-question-circle {
+  font-size: 2.0rem;
+}
+.faq_btn i.fa.fa-info-circle {
+  font-size: 2.0rem;
+}
+.help_btn a, .faq_btn a{
+	text-decoration:none;
+	}
+
+	ul.nav-main > li > a:hover, ul.nav-main > li > a:focus {
+    background-color:#03486B;
+}
+
+
+ul.nav-main li .nav-children li a:hover, ul.nav-main li .nav-children li a:focus {
+    background:#03486B;
+}
+
+
+@media  only screen and (min-width: 768px) {
+.menu_not {
+ display:none;
+}
+}
+
+@media  only screen and (max-width: 767px) {
+.menu_not {
+    float: right;
+    margin: 16px 0;
+	 display:block;
+}
+}
+
+
+</style>
+        <aside id="sidebar-left" class="sidebar-left">
+	<div class="sidebar-header">
+		<div class="sidebar-title">
+			<!--Navigation-->&nbsp;
+		</div>
+		<div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+			<i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+		</div>
+	</div>
+     <ul class="notifications menu_not">
+        	<li>
+            <a class="btn btn-primary" style="background-color:#0088cc;text-align:left;"><b>SMS 126</b></a>
+        </li>
+        <li>
+            <a  href="feedback.html" class="btn btn-primary" style="background-color:#E36159;" title="Feedback"><b>FeedBack</b></a>
+            </li>
+         
+            			<li> <a  href="help_support.html" class="btn btn-primary" style="background-color:#2BAAB1" title="Help And Support"><b>Need a Help ?</b>
+            	 </a>
+            	 </li>
+            </ul>
+	<div class="nano">
+
+		<div class="nano-content">
+                          <nav id="menu" class="nav-main" role="navigation">
+         
+                <ul class="nav nav-main">
+                                        <li  class="nav-active">
+                        <a href="home">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                      <li class="nav-parent" >
+                        <a href="javascript:;">
+                            <i class="fa fa-drivers-license-o" aria-hidden="true"></i>
+                            <span>Master Entries</span>
+                        </a>
+                        <ul class="nav nav-children">
+                            
+                           <li >
+                                <a href="packdurations">
+                                    TDS  Master 
+                                </a>
+                            </li>  
+                            
+                             
+                            <li >
+                                <a href="activities">
+                                  Executive Master
+                                </a>
+                            </li>  
+                              <li >
+                                <a href="packages">
+                                    Registration
+                                </a>
+                            </li>    
+                                                                           
+                        </ul>
+                    </li>    
+                       
+                    
+                                        <li class="nav-parent" >
+                        <a href="javascript:;">
+                            <i class="fa fa-drivers-license-o" aria-hidden="true"></i>
+                            <span>Transactions</span>
+                        </a>
+                        <ul class="nav nav-children">
+                            
+                           <li >
+                                <a href="packdurations">
+                                    Receipts
+                                </a>
+                            </li>  
+                            
+                             
+                            <li >
+                                <a href="activities">
+                                    Commissions
+                                </a>
+                            </li>  
+                              <li >
+                                <a href="packages">
+                                   View Network Tree
+                                </a>
+                            </li>    
+                             <li >
+                                <a href="packages">
+                                  View Executive Wise Tree
+                                </a>
+                            </li>    
+                             <li >
+                                <a href="packages">
+                                   View Network Tree
+                                </a>
+                            </li>                                                  
+                        </ul>
+                    </li>
+
+                    <li class="nav-parent" >
+                        <a href="javascript:;">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                            <span>Admin</span>
+                        </a>
+                        <ul class="nav nav-children">
+                         <li >
+                                <a href="membergroups">
+                                   User Privileges
+                                </a>
+                            </li>    
+                                 <li >
+                                <a href="memberregistrations">
+                                    Change Password
+                                </a>
+                            </li>   
+                            <li >
+                                <a href="staffregistrations">
+                                    Executive’s Promotions
+                                </a>
+                            </li>
+                             <li >
+                                <a href="memberregistrations">
+                                    Executive Advances
+                                </a>
+                            </li>   
+                            <li >
+                                <a href="staffregistrations">
+                                    Setting Master
+                                </a>
+                            </li>  
+                             <li >
+                                <a href="staffregistrations">
+                                    Backup 
+                                </a>
+                            </li>                 
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-parent" >
+
+
+
+
+                        <a href="javascript:;">
+                            <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+                            <span>Birthday Report</span>
+                        </a>
+                        <ul class="nav nav-children">
+                      
+                    
+                     <li >
+                        <a href="memberattendances">
+                         Executive  Birthday SMS Send
+                        </a>
+                    </li>
+                       <li >
+                        <a href="staffattendances">
+                          Whatsapp  Massage Send
+                        </a>
+                    </li>
+                    
+                        </ul>
+                    </li>
+
+                        <li >
+                        <a href="renewals"><i class="fa fa-retweet" aria-hidden="true"></i>
+                           Executive Feedback
+                        </a>
+                    </li> 
+                     <li >
+                        <a href="renewals"><i class="fa fa-retweet" aria-hidden="true"></i>
+                           Executive Notifications
+                        </a>
+                    </li> 
+                                        
+                                        <li class="nav-parent" >
+                        <a href="javascript:;">
+                            <i class="fa fa-cutlery" aria-hidden="true"></i>
+                            <span>Reports</span>
+                        </a>
+                        <ul  class="nav nav-children">
+                            <li >
+                                <a href="workoutcategories">
+                                    Daily Executive Report 
+                                </a>
+                            </li> 
+                            <li >
+                                <a href="workoutexercises">
+                                 Month Executive Report 
+                                </a>
+                            </li> 
+                            
+                            <li >
+                                <a href="trainings">
+                              Yearly Executive Rtepor
+                                </a>
+                            </li>
+                           
+                        </ul>
+                    </li>
+                     
+                                                  
+                                        <li class="nav-parent" >
+                        <a href="javascript:;">
+                            <i class="fa fa-cogs" aria-hidden="true"></i>
+                            <span>Settings</span>
+                        </a>
+                        <ul class="nav nav-children">
+                            <li >
+                                <a href="settings">
+                                    General Settings
+                                </a>
+                            </li> 
+                            
+                             <li >
+                                <a href="smsconfigurations">
+                                   SMS Configuration
+                                </a>
+                            </li> 
+                         
+                            <li >
+                                <a href="newsletters">
+                               Send SMS
+                            </a>
+                            </li> 
+                                                    
+                        </ul>
+                    </li>
+                        
+                  
+                    <li>
+                        <a href="logout">
+                            <i class="fa fa-sign-out" aria-hidden="true"></i>
+                            <span>Logout</span>
+                        </a>
+                    </li>
+                    
+                </ul>
+     
+            </nav>  
+                           
+		</div>
+     
+	</div>
+</aside>                <!-- end: sidebar -->
+        <section role="main" class="content-body">
+    <header class="page-header">
+        <h2>Dashboard</h2>
+
+        <div class="right-wrapper pull-right">
+            <ol class="breadcrumbs">
+                <li>
+                    <a href="assets/home">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </li>
+                <li><span style="margin-right:20%">Dashboard&nbsp;&nbsp;&nbsp;&nbsp;</span></li>
+            </ol>
+        </div>
+    </header>
+
+    <!-- start: page -->
+
+    <div class="row">
+        <div class="col-md-12">
+            <section class="panel" align="center">
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                    <section class="panel">
+                        <div class="panel-body block1">
+
+                            <div class="widget-summary">
+                                <div class="widget-summary-col widget-summary-col-icon">
+
+                                    <div class="summary-icon bg-primary">
+                                        2
+                                    </div>
+                                    <div class="widget-summary-col">
+
+                                        <!--<h4 class="title">&nbsp;</h4>-->
+                                        <div class="info" align="center">
+                                            <strong><h4 class="amount"><b>Total Members</b></h4>
+                                                            </strong>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                    <section class="panel">
+                        <div class="panel-body block1">
+                            <div class="widget-summary">
+                                <div class="widget-summary-col widget-summary-col-icon">
+                                    <div class="summary-icon bg-secondary">
+                                        3 </div>
+                                    <div class="widget-summary-col">
+
+                                        <!--<h4 class="title">&nbsp;</h4>-->
+                                        <div class="info">
+                                            <strong><h4 class ="amount"><b>Total Employees</b></h4></strong>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                    <section class="panel">
+                        <div class="panel-body block1">
+                            <div class="widget-summary">
+                                <div class="widget-summary-col widget-summary-col-icon">
+                                    <div class="summary-icon bg-tertiary">
+                                        4                                    </div>
+                                    <div class="widget-summary-col">
+
+                                        <!--    <h4 class="title">&nbsp;</h4>-->
+                                        <div class="info">
+                                            <strong><h4 class="amount"><b>Total Packages</b></h4>
+                                                            </strong>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                    <section class="panel">
+                        <div class="panel-body block1">
+                            <div class="widget-summary">
+                                <div class="widget-summary-col widget-summary-col-icon">
+                                    <div class="summary-icon bg-quaternary">
+                                        2 </div>
+                                    <div class="widget-summary-col">
+
+                                        <!--     <h4 class="title">&nbsp;</h4>-->
+                                        <div class="info">
+                                            <strong><h4 class="amount"><b>Total Equipments</b></h4></strong>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <section class="panel">
+
+                    <div class="col-sm-12">
+                        <header class="panel-heading" style="background-color:black">
+                            <h2 class="panel-title" style="color:#FFFFFF" align="center">Quick Links</h2>
+                        </header>
+                    </div>
+
+                    <div class="col-md-12">&nbsp;</div>
+                    <a href="assets/packages">
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <section class="panel panel-featured-left panel-featured-tertiary">
+                                <div class="panel-body block" style="background-color:#03486B;">
+                                    <div class="widget-summary">
+
+                                        <div class="widget-summary-col">
+                                            <div class="summary">
+                                                <!-- <h4 class="title">&nbsp;</h4>-->
+                                                <div class="info">
+                                                    <div class=col-xs-4>
+                                                        <div class="row">
+                                                            <img height="70" width="70" src="assets/images/package.png" alt="package">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class=col-xs-8>
+                                                        <div class="row">
+                                                            <strong class="amount">Packages</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                        </div>
+                    </a>
+
+                    <a href="assets/memberregistrations">
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <section class="panel panel-featured-left panel-featured-secondary">
+                                <div class="panel-body block" style="background-color:#0088CC;">
+                                    <div class="widget-summary">
+
+                                        <div class="widget-summary-col">
+                                            <div class="summary">
+                                                <!-- <h4 class="title">&nbsp;</h4>-->
+                                                <div class="info">
+                                                    <div class=col-xs-4>
+                                                        <div class="row">
+                                                            <img height="70" width="70" src="assets/images/member.png" alt="member">
+                                                        </div>
+                                                    </div>
+                                                    <div class=col-xs-8>
+                                                        <div class="row">
+                                                            <strong class="amount">Member Registration
+                                                                </strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </a>
+                    <a href="assets/staffregistrations">
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <section class="panel panel-featured-left panel-featured-tertiary">
+                                <div class="panel-body block" style="background-color:#03486B;">
+                                    <div class="widget-summary">
+
+                                        <div class="widget-summary-col">
+                                            <div class="summary">
+                                                <!--<h4 class="title">&nbsp;</h4>-->
+                                                <div class="info">
+                                                    <div class="info">
+                                                        <div class=col-xs-4>
+                                                            <div class="row">
+                                                                <img height="70" width="70" src="assets/images/employee.png" alt="employee">
+                                                            </div>
+                                                        </div>
+                                                        <div class=col-xs-8>
+                                                            <div class="row">
+                                                                <strong class="amount">
+                                                                        Staff Registration</strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </a>
+
+                </section>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <section class="panel">
+
+                    <a href="assets/renewals">
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <section class="panel panel-featured-left panel-featured-secondary">
+                                <div class="panel-body block" style="background-color:#0088CC;">
+                                    <div class="widget-summary">
+
+                                        <div class="widget-summary-col">
+                                            <div class="summary">
+                                                <!--  <h4 class="title">&nbsp;</h4>-->
+                                                <div class="info">
+                                                    <div class="info">
+                                                        <div class=col-xs-4>
+                                                            <div class="row">
+                                                                <img height="70" width="70" src="assets/images/renew.png" alt="attendance">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-xs-8">
+                                                            <div class="row">
+                                                                <strong class="amount">Member Renewal</strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+                        </div>
+                    </a>
+                    <a href="packagehistories.index">
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <section class="panel panel-featured-left panel-featured-quaternary" style="border-color: #03486b;">
+                                <div class="panel-body block" style="background-color:#e36159;">
+                                    <div class="widget-summary">
+
+                                        <div class="widget-summary-col">
+                                            <div class="summary">
+                                                <!--         <h4 class="title">&nbsp;</h4>-->
+                                                <div class="info">
+                                                    <div class="info">
+                                                        <div class=col-xs-4>
+                                                            <div class="row">
+                                                                <img height="70" width="70" src="assets/images/member12.png" alt="payment">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class=col-xs-8>
+                                                            <div class="row">
+                                                                <strong class="amount">
+                                                                     Package History</strong>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </a>
+
+                    <a href="assets/memberpaies">
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <section class="panel panel-featured-left panel-featured-secondary">
+                                <div class="panel-body block" style="background-color:#0088CC;">
+                                    <div class="widget-summary">
+
+                                        <div class="widget-summary-col">
+                                            <div class="summary">
+                                                <!--    <h4 class="title">&nbsp;</h4>-->
+                                                <div class="info">
+
+                                                    <div class=col-xs-4>
+                                                        <div class="row">
+                                                            <img height="70" width="70" src="assets/images/payment.png" alt="payment">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class=col-xs-8>
+                                                        <div class="row">
+                                                            <strong class="amount">Package Payment</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </a>
+
+                </section>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <section class="panel">
+                    <a href="assets/memberattendances">
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <section class="panel panel-featured-left panel-featured-tertiary">
+                                <div class="panel-body block" style="background-color:#03486B;">
+                                    <div class="widget-summary">
+
+                                        <div class="widget-summary-col">
+                                            <div class="summary">
+                                                <!-- <h4 class="title">&nbsp;</h4>-->
+                                                <div class="info">
+
+                                                    <div class=col-xs-4>
+                                                        <div class="row">
+                                                            <img height="70" width="70" src="assets/images/attendance.png" alt="attendance">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class=col-xs-8>
+                                                        <div class="row">
+                                                            <strong class="amount">Member Attendance</strong>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </a>
+
+                    <a href="assets/stockmasters">
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <section class="panel panel-featured-left panel-featured-secondary">
+                                <div class="panel-body block" style="background-color:#0088CC;">
+                                    <div class="widget-summary">
+
+                                        <div class="widget-summary-col">
+                                            <div class="summary">
+                                                <!--  <h4 class="title">&nbsp;</h4>-->
+                                                <div class="info">
+                                                    <div class=col-xs-4>
+                                                        <div class="row">
+                                                            <img height="70" width="70" src="assets/images/stock.png" alt="dietplan">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class=col-xs-8>
+                                                        <div class="row">
+                                                            <strong class="amount">Manage Stock</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </a>
+                    <a href="assets/dietplans">
+                        <div class="col-md-12 col-lg-4 col-xl-4">
+                            <section class="panel panel-featured-left panel-featured-tertiary">
+                                <div class="panel-body block" style="background-color:#03486B;">
+                                    <div class="widget-summary">
+
+                                        <div class="widget-summary-col">
+                                            <div class="summary">
+                                                <!-- <h4 class="title">&nbsp;</h4>-->
+                                                <div class="info">
+                                                    <div class=col-xs-4>
+                                                        <div class="row">
+                                                            <img height="70" width="70" src="assets/images/dietplan.png" alt="dietplan">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class=col-xs-8>
+                                                        <div class="row">
+                                                            <strong class="amount">Diet Set Up</strong>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </a>
+
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-6 col-xl-6">
+                <section class="panel">
+                    <div class="panel-body" style="border:1px solid #999999;height:max-content;">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <header class="panel-heading">
+                                    <h2 class="panel-title">Payment</h2>
+                                </header>
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped mb-none">
+
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Monthly Registration Fees</td>
+                                                <td>RS 300.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Today Collection</td>
+                                                <td>RS 4100.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>Month Collection</td>
+                                                <td>RS 16095.00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>4</td>
+                                                <td>Total Collection</td>
+                                                <td>RS 240835.25</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-6">
+                <section class="panel">
+                    <div class="panel-body" style="border:1px solid #999999;height:max-content;">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <header class="panel-heading">
+                                    <h2 class="panel-title">Profit / Loss</h2>
+                                </header>
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped mb-none">
+                                        <thead>
+                                            <tr>
+                                                <th>Type</th>
+                                                <th>Total Credit</th>
+                                                <th>Total Debit</th>
+                                                <th>Profit / Loss</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr>
+                                                <td>Today</td>
+                                                <td>RS 4100</td>
+                                                <td>RS 0</td>
+                                                <td>RS 4100</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Month</td>
+                                                <td>RS 16095</td>
+                                                <td>RS 2366.67</td>
+                                                <td>RS 13728.33</td>
+                                            </tr>
+                                            <tr>
+                                                <td>All</td>
+                                                <td>RS 330835.25</td>
+                                                <td>
+                                                    </b>RS 154115.67</td>
+                                                <td> RS 176719.58</td>
+                                            </tr>
+
+                                            <!--                                                         <tr>
+                                                            <td>1</td>
+                                                            <td>Gold Plus</td>
+                                                            <td>RS 4000</td>
+                                                        </tr>
+                                                                                                            <tr>
+                                                            <td>2</td>
+                                                            <td>Gold</td>
+                                                            <td>RS 2000</td>
+                                                        </tr>
+                                                                                                            <tr>
+                                                            <td>3</td>
+                                                            <td>Gold Plus</td>
+                                                            <td>RS 3000</td>
+                                                        </tr>
+
+                                                     -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-6 col-lg-6 col-xl-6">
+                <section class="panel">
+                    <div class="panel-body" style="border:1px solid #999999">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <header class="panel-heading">
+                                    <h2 class="panel-title"> Stock Master </h2>
+                                </header>
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped mb-none">
+                                        <thead>
+                                            <tr>
+                                                <th>Sr. No</th>
+                                                <th>Product</th>
+                                                <th>Open Stock</th>
+                                                <th>Sell Stock</th>
+                                                <th>Remain Stock</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                                                        <tr>
+                                                <td>1</td>
+                                                <td>dsfsdf</td>
+                                                <td>3</td>
+                                                <td>4</td>
+                                                <td>4</td>
+                                            </tr>
+                                                                                <tr>
+                                                <td>2</td>
+                                                <td>khjj</td>
+                                                <td>12</td>
+                                                <td>4</td>
+                                                <td>4</td>
+                                            </tr>
+                                                                                <tr>
+                                                <td>3</td>
+                                                <td>Apple</td>
+                                                <td>12</td>
+                                                <td>4</td>
+                                                <td>4</td>
+                                            </tr>
+                                                                                   
+                                            <tr>
+                                                <td align="center" colspan="5">
+                                                    <a class="btn btn-primary" href="assets/stockmasters">View More</a>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-xl-6">
+                <section class="panel">
+                    <div class="panel-body" style="border:1px solid #999999;">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <header class="panel-heading">
+                                    <h2 class="panel-title">Renew Member / Group</h2>
+                                </header>
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped mb-none">
+                                        <thead>
+                                            <tr>
+                                                <th>Sr.No</th>
+                                                <th> Name</th>
+                                                <th> Type</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                                                                               
+                                            <tr>
+                                                <td>1</td>
+                                                <td>devidas patle</td>
+                                                <td>Group</td>
+                                            </tr>
+                                                                               
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Vinay Kumar</td>
+                                                <td>Individual</td>
+                                            </tr>
+                                                                                    <tr>
+                                                <td align="center" colspan="3">
+                                                    <a class="btn btn-primary" href="assets/renewals">View More</a>
+                                                </td>
+                                            </tr>
+                                           </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!-- end: page -->
+        </section>
+
+    </div>
+
+</section>              
+        <!-- Vendor -->
+		<script src="assets/vendor/jquery/jquery.js"></script>
+		<script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+		<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
+		<script src="assets/vendor/nanoscroller/nanoscroller.js"></script>
+		<script src="assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+		<script src="assets/vendor/magnific-popup/jquery.magnific-popup.js"></script>
+		<script src="assets/vendor/jquery-placeholder/jquery-placeholder.js"></script>
+		
+		<!-- Specific Page Vendor -->
+		<script src="assets/vendor/jquery-ui/jquery-ui.js"></script>
+		<script src="assets/vendor/jqueryui-touch-punch/jqueryui-touch-punch.js"></script>
+		<script src="assets/vendor/jquery-appear/jquery-appear.js"></script>
+		<script src="assets/vendor/bootstrap-multiselect/bootstrap-multiselect.js"></script>
+		<script src="assets/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.js"></script>
+		<script src="assets/vendor/flot.tooltip/flot.tooltip.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.pie.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.categories.js"></script>
+		<script src="assets/vendor/flot/jquery.flot.resize.js"></script>
+		<script src="assets/vendor/jquery-sparkline/jquery-sparkline.js"></script>
+		<script src="assets/vendor/raphael/raphael.js"></script>
+		<script src="assets/vendor/morris.js/morris.js"></script>
+		<script src="assets/vendor/gauge/gauge.js"></script>
+		<script src="assets/vendor/snap.svg/snap.svg.js"></script>
+		<script src="assets/vendor/liquid-meter/liquid.meter.js"></script>
+		<script src="assets/vendor/jqvmap/jquery.vmap.js"></script>
+		<script src="assets/vendor/jqvmap/data/jquery.vmap.sampledata.js"></script>
+		<script src="assets/vendor/jqvmap/maps/jquery.vmap.world.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.africa.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.asia.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.australia.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.europe.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.north-america.js"></script>
+		<script src="assets/vendor/jqvmap/maps/continents/jquery.vmap.south-america.js"></script>
+		
+		<script src="assets/vendor/jquery-validation/jquery.validate.js"></script>
+
+		<!-- Theme Base, Components and Settings -->
+
+		<script src="assets/javascripts/theme.js"></script>
+		<!-- Theme Custom -->
+
+		<script src="assets/javascripts/theme.custom.js"></script>
+		<!-- Theme Initialization Files -->
+
+		<script src="assets/javascripts/theme.init.js"></script>
+
+		<!-- Examples -->
+
+		<script src="assets/javascripts/forms/examples.validation.js"></script>
+	
+		<script src="assets/javascripts/ajaxupload.3.5.js"></script>
+		<script src="assets/javascripts/custom.js"></script>
+
+	
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+ <script type="text/javascript" src="https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+    </body>
+</html>

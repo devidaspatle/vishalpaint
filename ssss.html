@@ -1,0 +1,14 @@
+<script language="JavaScript">
+	function selectAll(source) {
+		checkboxes = document.getElementsByName('colors[]');
+		for(var i in checkboxes)
+			checkboxes[i].checked = source.checked;
+	}
+</script>
+
+<input type="checkbox" id="selectall" onClick="selectAll(this)" />Select All
+
+	<input type="checkbox" name="colors[]" value="red" />Red
+	<input type="checkbox" name="colors[]" value="blue" />Blue
+	<input type="checkbox" name="colors[]" value="green" />Green
+	<input type="checkbox" name="colors[]" value="black" />Black
